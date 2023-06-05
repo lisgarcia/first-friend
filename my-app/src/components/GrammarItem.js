@@ -78,7 +78,7 @@ function GrammarItem({
         </div>
         <div className="card-action">
           <a href={link} target="_blank">
-            <button className="learn-more">Learn More</button>
+            <button className="link-button">Learn More</button>
           </a>
         </div>
       </Card>
