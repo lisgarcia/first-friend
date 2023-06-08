@@ -55,6 +55,14 @@
       "link": "https://www.topikguide.com/%ec%9d%b4%eb%9d%bc%ea%b3%a0-korean-grammar/",
       "likes": 1,
       "id": 7
+    },
+    {
+      "name": "25 Most Useful Korean Phrases for Travelling and Daily Life",
+      "description": "These are a list of 25 most common and useful Korean greetings and phrases that you must learn if you are visiting Korean or meeting a Korean friend or business client.",
+      "image": "https://www.topikguide.com/wp-content/uploads/2023/02/25-MOST-USEFUL-KOREAN-Phrases.png",
+      "link": "https://www.topikguide.com/25-most-useful-korean-phrases-for-travelling-and-daily-life/",
+      "likes": 0,
+      "id": 8
     }
   ],
   "books": [
@@ -113,6 +121,14 @@
       "purchaseUrl": "https://www.amazon.com/Organic-Korean-Simple-Upper-Beginners/dp/B0BGKQTTGJ",
       "likes": 1,
       "id": 7
+    },
+    {
+      "name": "Real-Life Korean Conversations for Beginners",
+      "description": "Real Life Korean Conversations for Beginners includes 40 different dialogues taken from real life so you can navigate through social situations in Korean with ease.",
+      "image": "https://img.rephonic.com/artwork/real-life-korean-conversations-for-beginners.jpg?width=600&height=600&quality=95",
+      "purchaseUrl": "https://talktomeinkorean.com/product/cov1/",
+      "likes": 0,
+      "id": 8
     }
   ],
   "videos": [
