@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+<img src="public/main-logo.png" width="200px"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# First Friend
 
-## Available Scripts
+## Created By
 
-In the project directory, you can run:
+Mai Garcia, Elisabeth Garcia, and Katherine West
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Welcome to **First Friend (첫친구)**, a website designed for learners of the Korean language to find and share a variety of studying resources. To create a comprehensive collection of learning materials, we have included a page for books, grammar resources, videos, and a catch-all page for other miscellaneous resources, such as apps and dictionaries. 
+<br/>
+<img src="public/homepageimg.jpg" width="600px"/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+On the homepage, users will find the top three most popular resources in each four categories, marked by a header describing the type of resource it is. The most popular resources update dynamically based on the number of likes of each item.
 
-### `npm test`
+<img src="public/resource-card.jpg" width="200px"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For books, grammar, and miscellaneous resources, each resource card has an image, title, description, action button (such as "BUY NOW" or "LEARN MORE"), and like button. Clicking the action button will open a new tab in which users will be directed to the link to either purchase the book or view the original resource. Video resources populate as embedded videos with their preset thumbnails, and do not have descriptions or links. 
 
-### `npm run build`
+<img src="public/search-sort-paginate.jpg" width="600px"/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On the resource pages (other than "Videos"), you can search for a specific item by name or description. You can also sort by item name or popularity, which is again based on the number of likes of each item. The page uses pagination to show 6 resources at a time, which does not affect the searching or sorting functionalities.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="public/video-page.jpg" width="600px"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The video page features separate pagination for each of the three categories of videos.
 
-### `npm run eject`
+<img src="public/resource-form.jpg" width="500px"/>
+<img src="public/video-resource-form.jpg" width="500px"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Each resource page has a form on the bottom where users can add their own resources. The fields include the name, description, image, and associated link of the resource. For videos, there is a dropdown to select the category of the new resource. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="public/warning-message.jpg" width="500px"/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+When the user successfully submits a new resource, a confetti animation will play, the window will scroll back to the top, and the new resource will appear. If the user attempts to submit a resource that already exists, a warning message will appear below the form and the resource will not be added.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies Used
+* React
+* Tailwind
+* Material UI
